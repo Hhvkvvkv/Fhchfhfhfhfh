@@ -1,13 +1,14 @@
 {
     "status": "active",
-    "base_url": "https://arrangements-gardening-conceptual-msgstr.trycloudflare.com",
+    "base_url": "https://rescue-gentleman-breeding-frog.trycloudflare.com",
+    "ai_engine": "DeepSeek Mobile API (Direct Connection)",
     "endpoints": {
         "chat": {
             "path": "/chat",
             "method": "GET",
-            "description": "استقبال الرد من الذكاء الاصطناعي مباشرة"
+            "description": "استقبال الرد من DeepSeek مباشرة"
         }
     },
-    "direct_browser_test_url": "https://arrangements-gardening-conceptual-msgstr.trycloudflare.com/chat?model=@cf/meta/llama-3.1-70b-instruct&message=مرحبا",
-    "last_updated": "2026-08-08 09:50:30"
+    "direct_browser_test_url": "https://rescue-gentleman-breeding-frog.trycloudflare.com/chat?message=مرحبا",
+    "last_updated": "2026-08-08 11:06:32"
 }
