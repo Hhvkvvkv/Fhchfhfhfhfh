@@ -1,18 +1,25 @@
 {
     "status": "active",
-    "base_url": "https://capabilities-worth-suspension-beneath.trycloudflare.com",
-    "ai_engine": "Microsoft Copilot AI",
+    "base_url": "https://gtk-towards-andale-plumbing.trycloudflare.com",
+    "ai_engines_available": [
+        "copilot",
+        "deepseek"
+    ],
     "endpoints": {
         "chat": {
             "path": "/chat",
             "method": "GET",
-            "description": "استقبال الرد من Copilot",
+            "description": "استقبال الرد من الذكاء الاصطناعي المختار",
             "parameters": {
                 "message": "نص الطلب (إجباري)",
-                "mode": "نمط المحادثة: smart | study | search | chat (اختياري، الافتراضي study)"
+                "engine": "محرك الذكاء: copilot أو deepseek (اختياري، الافتراضي copilot)",
+                "mode": "نمط Copilot: smart | study | search | chat (اختياري، الافتراضي study)"
             }
         }
     },
-    "direct_browser_test_url": "https://capabilities-worth-suspension-beneath.trycloudflare.com/chat?message=اكتب مقال عن القهوة&mode=study",
-    "last_updated": "2026-08-08 14:44:44"
+    "direct_browser_test_urls": {
+        "copilot": "https://gtk-towards-andale-plumbing.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "deepseek": "https://gtk-towards-andale-plumbing.trycloudflare.com/chat?engine=deepseek&message=مرحبا"
+    },
+    "last_updated": "2026-08-08 14:50:17"
 }
