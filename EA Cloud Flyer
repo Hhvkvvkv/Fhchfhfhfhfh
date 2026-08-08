@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://gtk-towards-andale-plumbing.trycloudflare.com",
+    "base_url": "https://shoes-calculators-notes-administration.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
         "deepseek"
@@ -18,8 +18,8 @@
         }
     },
     "direct_browser_test_urls": {
-        "copilot": "https://gtk-towards-andale-plumbing.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "deepseek": "https://gtk-towards-andale-plumbing.trycloudflare.com/chat?engine=deepseek&message=مرحبا"
+        "copilot": "https://shoes-calculators-notes-administration.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "deepseek": "https://shoes-calculators-notes-administration.trycloudflare.com/chat?engine=deepseek&message=مرحبا"
     },
-    "last_updated": "2026-08-08 14:50:17"
+    "last_updated": "2026-08-08 15:16:30"
 }
