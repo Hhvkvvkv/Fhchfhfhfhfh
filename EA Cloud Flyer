@@ -1,9 +1,9 @@
 {
     "status": "active",
-    "base_url": "https://shoes-calculators-notes-administration.trycloudflare.com",
+    "base_url": "https://pig-express-comfort-gear.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
-        "deepseek"
+        "kimi"
     ],
     "endpoints": {
         "chat": {
@@ -12,14 +12,15 @@
             "description": "استقبال الرد من الذكاء الاصطناعي المختار",
             "parameters": {
                 "message": "نص الطلب (إجباري)",
-                "engine": "محرك الذكاء: copilot أو deepseek (اختياري، الافتراضي copilot)",
-                "mode": "نمط Copilot: smart | study | search | chat (اختياري، الافتراضي study)"
+                "engine": "محرك الذكاء: copilot أو kimi (اختياري، الافتراضي copilot)",
+                "mode": "تغيير النموذج - لـ Copilot: (smart | study) / لـ Kimi: (SCENARIO_K2D5 | SCENARIO_K3)"
             }
         }
     },
     "direct_browser_test_urls": {
-        "copilot": "https://shoes-calculators-notes-administration.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "deepseek": "https://shoes-calculators-notes-administration.trycloudflare.com/chat?engine=deepseek&message=مرحبا"
+        "copilot_default": "https://pig-express-comfort-gear.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "kimi_k2": "https://pig-express-comfort-gear.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
+        "kimi_k3": "https://pig-express-comfort-gear.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
     },
-    "last_updated": "2026-08-08 15:16:30"
+    "last_updated": "2026-08-08 21:20:45"
 }
