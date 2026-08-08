@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://irc-california-modems-emotions.trycloudflare.com",
+    "base_url": "https://landing-hash-thank-lot.trycloudflare.com",
     "endpoints": {
         "chat": {
             "path": "/chat",
@@ -8,6 +8,6 @@
             "description": "استقبال الرد من الذكاء الاصطناعي مباشرة"
         }
     },
-    "direct_browser_test_url": "https://irc-california-modems-emotions.trycloudflare.com/chat?model=@cf/meta/llama-3.1-70b-instruct&message=مرحبا",
-    "last_updated": "2026-08-08 09:40:45"
+    "direct_browser_test_url": "https://landing-hash-thank-lot.trycloudflare.com/chat?model=@cf/meta/llama-3.1-70b-instruct&message=مرحبا",
+    "last_updated": "2026-08-08 09:44:50"
 }
