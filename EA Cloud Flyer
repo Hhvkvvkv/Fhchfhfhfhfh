@@ -1,14 +1,18 @@
 {
     "status": "active",
-    "base_url": "https://rescue-gentleman-breeding-frog.trycloudflare.com",
-    "ai_engine": "DeepSeek Mobile API (Direct Connection)",
+    "base_url": "https://capabilities-worth-suspension-beneath.trycloudflare.com",
+    "ai_engine": "Microsoft Copilot AI",
     "endpoints": {
         "chat": {
             "path": "/chat",
             "method": "GET",
-            "description": "استقبال الرد من DeepSeek مباشرة"
+            "description": "استقبال الرد من Copilot",
+            "parameters": {
+                "message": "نص الطلب (إجباري)",
+                "mode": "نمط المحادثة: smart | study | search | chat (اختياري، الافتراضي study)"
+            }
         }
     },
-    "direct_browser_test_url": "https://rescue-gentleman-breeding-frog.trycloudflare.com/chat?message=مرحبا",
-    "last_updated": "2026-08-08 11:06:32"
+    "direct_browser_test_url": "https://capabilities-worth-suspension-beneath.trycloudflare.com/chat?message=اكتب مقال عن القهوة&mode=study",
+    "last_updated": "2026-08-08 14:44:44"
 }
