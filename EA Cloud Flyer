@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://pig-express-comfort-gear.trycloudflare.com",
+    "base_url": "https://edit-supporting-carmen-nearly.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
         "kimi"
@@ -18,9 +18,9 @@
         }
     },
     "direct_browser_test_urls": {
-        "copilot_default": "https://pig-express-comfort-gear.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "kimi_k2": "https://pig-express-comfort-gear.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
-        "kimi_k3": "https://pig-express-comfort-gear.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
+        "copilot_default": "https://edit-supporting-carmen-nearly.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "kimi_k2": "https://edit-supporting-carmen-nearly.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
+        "kimi_k3": "https://edit-supporting-carmen-nearly.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
     },
-    "last_updated": "2026-08-08 21:20:45"
+    "last_updated": "2026-08-08 21:32:07"
 }
