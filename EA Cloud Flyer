@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://tension-moreover-concerns-copyrights.trycloudflare.com",
+    "base_url": "https://concerns-items-licensed-adjacent.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
         "kimi"
@@ -18,9 +18,9 @@
         }
     },
     "direct_browser_test_urls": {
-        "copilot_default": "https://tension-moreover-concerns-copyrights.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "kimi_k2": "https://tension-moreover-concerns-copyrights.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
-        "kimi_k3": "https://tension-moreover-concerns-copyrights.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
+        "copilot_default": "https://concerns-items-licensed-adjacent.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "kimi_k2": "https://concerns-items-licensed-adjacent.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
+        "kimi_k3": "https://concerns-items-licensed-adjacent.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
     },
-    "last_updated": "2026-08-09 15:10:36"
+    "last_updated": "2026-08-09 18:49:15"
 }
