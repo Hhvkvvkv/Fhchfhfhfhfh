@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://officials-hunting-development-categories.trycloudflare.com",
+    "base_url": "https://immigration-bold-payment-propecia.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
         "kimi"
@@ -18,9 +18,9 @@
         }
     },
     "direct_browser_test_urls": {
-        "copilot_default": "https://officials-hunting-development-categories.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "kimi_k2": "https://officials-hunting-development-categories.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
-        "kimi_k3": "https://officials-hunting-development-categories.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
+        "copilot_default": "https://immigration-bold-payment-propecia.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "kimi_k2": "https://immigration-bold-payment-propecia.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
+        "kimi_k3": "https://immigration-bold-payment-propecia.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
     },
-    "last_updated": "2026-08-10 08:47:50"
+    "last_updated": "2026-08-10 15:10:37"
 }
