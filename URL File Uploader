@@ -1,1 +1,5 @@
-
+{
+    "server1": "QuranRadio_Main_EG_Archive_2026_v1",
+    "server2": "QuranRadio_Backup_EG_Archive_2026_v1",
+    "server3": "QuranRadio_KSA_Archive_2026_v1"
+}
