@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://miracle-charming-cinema-conventions.trycloudflare.com",
+    "base_url": "https://alpine-interact-possess-rico.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
         "kimi"
@@ -18,9 +18,9 @@
         }
     },
     "direct_browser_test_urls": {
-        "copilot_default": "https://miracle-charming-cinema-conventions.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "kimi_k2": "https://miracle-charming-cinema-conventions.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
-        "kimi_k3": "https://miracle-charming-cinema-conventions.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
+        "copilot_default": "https://alpine-interact-possess-rico.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "kimi_k2": "https://alpine-interact-possess-rico.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
+        "kimi_k3": "https://alpine-interact-possess-rico.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
     },
-    "last_updated": "2026-08-11 03:10:37"
+    "last_updated": "2026-08-11 15:10:41"
 }
