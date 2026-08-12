@@ -1,11 +1,11 @@
 {
-    "server1_hours": "quranradio-main-eg-hours-v3-5d1d",
-    "server1_tilawat": "quranradio-main-eg-tilawat-v3-1f26",
-    "server1_cuts": "quranradio-main-eg-cuts-v3-c269",
-    "server2_hours": "quranradio-backup-eg-hours-v3-2d8c",
-    "server2_tilawat": "quranradio-backup-eg-tilawat-v3-bae4",
-    "server2_cuts": "quranradio-backup-eg-cuts-v3-8d88",
-    "server3_hours": "quranradio-ksa-hours-v3-7779",
-    "server3_tilawat": "quranradio-ksa-tilawat-v3-114f",
-    "server3_cuts": "quranradio-ksa-cuts-v3-71b6"
+    "server1_hours": "quranradio-main-eg-hours-v4-5d1d",
+    "server1_tilawat": "quranradio-main-eg-tilawat-v4-1f26",
+    "server1_cuts": "quranradio-main-eg-cuts-v4-c269",
+    "server2_hours": "quranradio-backup-eg-hours-v4-2d8c",
+    "server2_tilawat": "quranradio-backup-eg-tilawat-v4-bae4",
+    "server2_cuts": "quranradio-backup-eg-cuts-v4-8d88",
+    "server3_hours": "quranradio-ksa-hours-v4-7779",
+    "server3_tilawat": "quranradio-ksa-tilawat-v4-114f",
+    "server3_cuts": "quranradio-ksa-cuts-v4-71b6"
 }
