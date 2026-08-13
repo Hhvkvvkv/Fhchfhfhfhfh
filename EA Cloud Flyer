@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://prints-shopper-applies-addresses.trycloudflare.com",
+    "base_url": "https://photographer-presidential-known-engage.trycloudflare.com",
     "ai_engines_available": [
         "copilot",
         "kimi"
@@ -18,9 +18,9 @@
         }
     },
     "direct_browser_test_urls": {
-        "copilot_default": "https://prints-shopper-applies-addresses.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "kimi_k2": "https://prints-shopper-applies-addresses.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
-        "kimi_k3": "https://prints-shopper-applies-addresses.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
+        "copilot_default": "https://photographer-presidential-known-engage.trycloudflare.com/chat?engine=copilot&message=مرحبا",
+        "kimi_k2": "https://photographer-presidential-known-engage.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
+        "kimi_k3": "https://photographer-presidential-known-engage.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
     },
-    "last_updated": "2026-08-13 03:10:35"
+    "last_updated": "2026-08-13 15:10:42"
 }
