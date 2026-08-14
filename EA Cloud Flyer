@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://shaft-journalists-samuel-extensive.trycloudflare.com",
+    "base_url": "https://lanes-attendance-are-labs.trycloudflare.com",
     "ai_engine": "DataBase Supabase AI",
     "endpoints": {
         "chat": {
@@ -12,20 +12,34 @@
                 "model": "اسم النموذج المطلوب استخدامه (اختياري، الافتراضي google/gemini-2.5-flash)"
             },
             "available_models": [
+                "google/gemini-2.5-flash-lite",
                 "google/gemini-2.5-flash",
                 "google/gemini-2.5-flash-image",
+                "google/gemini-2.5-pro",
+                "openai/gpt-5-nano",
                 "openai/gpt-5-mini",
                 "openai/gpt-5",
+                "anthropic/claude-3-5-haiku-20241022",
                 "anthropic/claude-sonnet-4-5",
-                "anthropic/claude-opus-4-1-20250805"
+                "anthropic/claude-opus-4-1-20250805",
+                "anthropic/claude-sonnet-5",
+                "anthropic/claude-fable-5"
             ]
         }
     },
     "direct_browser_test_urls": {
-        "gemini_chat": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
-        "gemini_image": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
-        "gpt5": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
-        "claude": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا"
+        "gemini_flash_lite": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
+        "gemini_flash": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
+        "gemini_image": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
+        "gemini_pro": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
+        "gpt5_nano": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
+        "gpt5_mini": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
+        "gpt5": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
+        "claude_haiku": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
+        "claude_sonnet_4_5": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
+        "claude_opus": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
+        "claude_sonnet_5": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
+        "claude_fable_5": "https://lanes-attendance-are-labs.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
     },
-    "last_updated": "2026-08-14 21:17:53"
+    "last_updated": "2026-08-14 21:23:11"
 }
