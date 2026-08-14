@@ -1,26 +1,31 @@
 {
     "status": "active",
-    "base_url": "https://demands-pretty-martial-telescope.trycloudflare.com",
-    "ai_engines_available": [
-        "copilot",
-        "kimi"
-    ],
+    "base_url": "https://shaft-journalists-samuel-extensive.trycloudflare.com",
+    "ai_engine": "DataBase Supabase AI",
     "endpoints": {
         "chat": {
             "path": "/chat",
             "method": "GET",
-            "description": "استقبال الرد من الذكاء الاصطناعي المختار",
+            "description": "استقبال الرد من الذكاء الاصطناعي",
             "parameters": {
                 "message": "نص الطلب (إجباري)",
-                "engine": "محرك الذكاء: copilot أو kimi (اختياري، الافتراضي copilot)",
-                "mode": "تغيير النموذج - لـ Copilot: (smart | study) / لـ Kimi: (SCENARIO_K2D5 | SCENARIO_K3)"
-            }
+                "model": "اسم النموذج المطلوب استخدامه (اختياري، الافتراضي google/gemini-2.5-flash)"
+            },
+            "available_models": [
+                "google/gemini-2.5-flash",
+                "google/gemini-2.5-flash-image",
+                "openai/gpt-5-mini",
+                "openai/gpt-5",
+                "anthropic/claude-sonnet-4-5",
+                "anthropic/claude-opus-4-1-20250805"
+            ]
         }
     },
     "direct_browser_test_urls": {
-        "copilot_default": "https://demands-pretty-martial-telescope.trycloudflare.com/chat?engine=copilot&message=مرحبا",
-        "kimi_k2": "https://demands-pretty-martial-telescope.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K2D5&message=مرحبا",
-        "kimi_k3": "https://demands-pretty-martial-telescope.trycloudflare.com/chat?engine=kimi&mode=SCENARIO_K3&message=مرحبا"
+        "gemini_chat": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
+        "gemini_image": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
+        "gpt5": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
+        "claude": "https://shaft-journalists-samuel-extensive.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا"
     },
-    "last_updated": "2026-08-14 15:10:46"
+    "last_updated": "2026-08-14 21:17:53"
 }
