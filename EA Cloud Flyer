@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://threatening-whatever-samba-liz.trycloudflare.com",
+    "base_url": "https://appointed-workers-sheets-resulting.trycloudflare.com",
     "ai_engine": "DataBase Supabase AI",
     "endpoints": {
         "chat": {
@@ -28,18 +28,18 @@
         }
     },
     "direct_browser_test_urls": {
-        "gemini_flash_lite": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
-        "gemini_flash": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
-        "gemini_image": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
-        "gemini_pro": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
-        "gpt5_nano": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
-        "gpt5_mini": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
-        "gpt5": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
-        "claude_haiku": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
-        "claude_sonnet_4_5": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
-        "claude_opus": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
-        "claude_sonnet_5": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
-        "claude_fable_5": "https://threatening-whatever-samba-liz.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
+        "gemini_flash_lite": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
+        "gemini_flash": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
+        "gemini_image": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
+        "gemini_pro": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
+        "gpt5_nano": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
+        "gpt5_mini": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
+        "gpt5": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
+        "claude_haiku": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
+        "claude_sonnet_4_5": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
+        "claude_opus": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
+        "claude_sonnet_5": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
+        "claude_fable_5": "https://appointed-workers-sheets-resulting.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
     },
-    "last_updated": "2026-08-16 15:10:44"
+    "last_updated": "2026-08-17 03:10:37"
 }
