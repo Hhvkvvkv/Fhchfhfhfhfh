@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://milk-otherwise-forgotten-liable.trycloudflare.com",
+    "base_url": "https://knows-geographic-female-financing.trycloudflare.com",
     "ai_engine": "DataBase Supabase AI",
     "endpoints": {
         "chat": {
@@ -28,18 +28,18 @@
         }
     },
     "direct_browser_test_urls": {
-        "gemini_flash_lite": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
-        "gemini_flash": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
-        "gemini_image": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
-        "gemini_pro": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
-        "gpt5_nano": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
-        "gpt5_mini": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
-        "gpt5": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
-        "claude_haiku": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
-        "claude_sonnet_4_5": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
-        "claude_opus": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
-        "claude_sonnet_5": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
-        "claude_fable_5": "https://milk-otherwise-forgotten-liable.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
+        "gemini_flash_lite": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
+        "gemini_flash": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
+        "gemini_image": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
+        "gemini_pro": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
+        "gpt5_nano": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
+        "gpt5_mini": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
+        "gpt5": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
+        "claude_haiku": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
+        "claude_sonnet_4_5": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
+        "claude_opus": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
+        "claude_sonnet_5": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
+        "claude_fable_5": "https://knows-geographic-female-financing.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
     },
-    "last_updated": "2026-08-21 03:10:38"
+    "last_updated": "2026-08-21 15:10:40"
 }
