@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://dog-gratis-towards-mod.trycloudflare.com",
+    "base_url": "https://southern-decimal-edt-experiences.trycloudflare.com",
     "ai_engine": "DataBase Supabase AI",
     "endpoints": {
         "chat": {
@@ -28,18 +28,18 @@
         }
     },
     "direct_browser_test_urls": {
-        "gemini_flash_lite": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
-        "gemini_flash": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
-        "gemini_image": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
-        "gemini_pro": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
-        "gpt5_nano": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
-        "gpt5_mini": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
-        "gpt5": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
-        "claude_haiku": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
-        "claude_sonnet_4_5": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
-        "claude_opus": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
-        "claude_sonnet_5": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
-        "claude_fable_5": "https://dog-gratis-towards-mod.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
+        "gemini_flash_lite": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
+        "gemini_flash": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
+        "gemini_image": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
+        "gemini_pro": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
+        "gpt5_nano": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
+        "gpt5_mini": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
+        "gpt5": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
+        "claude_haiku": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
+        "claude_sonnet_4_5": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
+        "claude_opus": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
+        "claude_sonnet_5": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
+        "claude_fable_5": "https://southern-decimal-edt-experiences.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
     },
-    "last_updated": "2026-08-26 03:10:42"
+    "last_updated": "2026-08-26 15:10:41"
 }
