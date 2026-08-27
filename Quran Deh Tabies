@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://change-fioricet-betting-proper.trycloudflare.com`
+**API URL:** `https://peaceful-david-tagged-located.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -10,7 +10,7 @@
 
 ### 1. List All Reciters
 ```
-GET https://change-fioricet-betting-proper.trycloudflare.com/api/reciters
+GET https://peaceful-david-tagged-located.trycloudflare.com/api/reciters
 ```
 
 **Response Example:**
@@ -23,10 +23,10 @@ GET https://change-fioricet-betting-proper.trycloudflare.com/api/reciters
 
 ### 2. Reciter Info & Sections (only sections WITH tracks)
 ```
-GET https://change-fioricet-betting-proper.trycloudflare.com/api/reciter/{reciter_id}
+GET https://peaceful-david-tagged-located.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
-**Example:** `https://change-fioricet-betting-proper.trycloudflare.com/api/reciter/6983826b430a2731b0e5cb5c`
+**Example:** `https://peaceful-david-tagged-located.trycloudflare.com/api/reciter/6983826b430a2731b0e5cb5c`
 
 **Response Example:**
 ```json
@@ -43,30 +43,30 @@ GET https://change-fioricet-betting-proper.trycloudflare.com/api/reciter/{recite
 
 ### 3. Tracks in a Section
 ```
-GET https://change-fioricet-betting-proper.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://peaceful-david-tagged-located.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
-**Example:** `https://change-fioricet-betting-proper.trycloudflare.com/api/tracks/6983826b430a2731b0e5cb5c/mujawwad`
+**Example:** `https://peaceful-david-tagged-located.trycloudflare.com/api/tracks/6983826b430a2731b0e5cb5c/mujawwad`
 
 **Response Example:**
 ```json
 {"success": true, "reciter": "محمود خليل الحصري", "trackCount": 107, "tracks": [
-  {"index": 0, "title": "الفاتحة والبقرة 1-46", "url": "https://pub-58f9a46e5bbf494b8b8df795ab4954da.r2.dev/mahmoud-khalil-al-hussary/mujawwad/full/halaqa/01.mp3"}
+  {"index": 0, "title": "الفاتحة والبقرة 1-46", "url": "[https://pub-58f9a46e5bbf494b8b8df795ab4954da.r2.dev/mahmoud-khalil-al-hussary/mujawwad/full/halaqa/01.mp3](https://pub-58f9a46e5bbf494b8b8df795ab4954da.r2.dev/mahmoud-khalil-al-hussary/mujawwad/full/halaqa/01.mp3)"}
 ]}
 ```
 
 ### 4. Single Track Info (with audio URL)
 ```
-GET https://change-fioricet-betting-proper.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://peaceful-david-tagged-located.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
-**Example:** `https://change-fioricet-betting-proper.trycloudflare.com/api/track/6983826b430a2731b0e5cb5c/mujawwad/0`
+**Example:** `https://peaceful-david-tagged-located.trycloudflare.com/api/track/6983826b430a2731b0e5cb5c/mujawwad/0`
 
 **Response Example:**
 ```json
 {"success": true, "reciter": "محمود خليل الحصري", "section": "المصحف المجود حلقات",
   "trackIndex": 0, "title": "الفاتحة والبقرة 1-46",
-  "audioUrl": "https://pub-58f9a46e5bbf494b8b8df795ab4954da.r2.dev/mahmoud-khalil-al-hussary/mujawwad/full/halaqa/01.mp3",
+  "audioUrl": "[https://pub-58f9a46e5bbf494b8b8df795ab4954da.r2.dev/mahmoud-khalil-al-hussary/mujawwad/full/halaqa/01.mp3](https://pub-58f9a46e5bbf494b8b8df795ab4954da.r2.dev/mahmoud-khalil-al-hussary/mujawwad/full/halaqa/01.mp3)",
   "format": "mp3",
   "next": "/api/track/6983826b430a2731b0e5cb5c/mujawwad/1",
   "previous": null,
@@ -77,7 +77,7 @@ GET https://change-fioricet-betting-proper.trycloudflare.com/api/track/{reciter_
 
 ## Usage from Kotlin
 ```kotlin
-val res = URL("https://change-fioricet-betting-proper.trycloudflare.com/api/reciters").readText()
+val res = URL("https://peaceful-david-tagged-located.trycloudflare.com/api/reciters").readText()
 val json = JSONObject(res)
 json.getJSONArray("reciters").let { arr ->
     for (i in 0 until arr.length()) {
@@ -89,7 +89,7 @@ json.getJSONArray("reciters").let { arr ->
 
 ## Usage from JavaScript
 ```javascript
-fetch("https://change-fioricet-betting-proper.trycloudflare.com/api/reciters").then(r=>r.json()).then(d =>
+fetch("https://peaceful-david-tagged-located.trycloudflare.com/api/reciters").then(r=>r.json()).then(d =>
   d.reciters.forEach(r => console.log(r.name, r.id))
 );
 ```
@@ -97,7 +97,8 @@ fetch("https://change-fioricet-betting-proper.trycloudflare.com/api/reciters").t
 ## Usage from Python
 ```python
 import urllib.request, json
-data = json.loads(urllib.request.urlopen("https://change-fioricet-betting-proper.trycloudflare.com/api/reciters").read())
+req = urllib.request.Request("https://peaceful-david-tagged-located.trycloudflare.com/api/reciters", headers={"User-Agent": "Mozilla/5.0"})
+data = json.loads(urllib.request.urlopen(req).read())
 for r in data["reciters"]:
     print(r["name"], r["id"])
 ```
