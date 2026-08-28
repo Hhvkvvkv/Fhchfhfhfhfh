@@ -1,3 +1,31 @@
 # 🕌 Quran Reciters API
-**API URL:** `https://participate-oriental-references-cleveland.trycloudflare.com`
+## Cloudflare Tunnel - سيرفر القراء المنشاوي
+
+**API URL:** `https://dis-boston-ranges-vinyl.trycloudflare.com`
 **Status:** 🟢 Active
+
+---
+## Endpoints
+
+### 1. List All Reciters
+```
+GET https://dis-boston-ranges-vinyl.trycloudflare.com/api/reciters
+```
+
+### 2. Reciter Info
+```
+GET https://dis-boston-ranges-vinyl.trycloudflare.com/api/reciter/{reciter_id}
+```
+
+### 3. Tracks in a Section
+```
+GET https://dis-boston-ranges-vinyl.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+```
+
+### 4. Single Track Info
+```
+GET https://dis-boston-ranges-vinyl.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+```
+
+---
+*Last updated: auto by deploy_quran_api.py*
