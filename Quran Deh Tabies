@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://surprising-address-salem-concerned.trycloudflare.com`
+**API URL:** `https://thank-are-melissa-semi.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -9,22 +9,22 @@
 
 ### 1. List All Reciters
 ```
-GET https://surprising-address-salem-concerned.trycloudflare.com/api/reciters
+GET https://thank-are-melissa-semi.trycloudflare.com/api/reciters
 ```
 
 ### 2. Reciter Info
 ```
-GET https://surprising-address-salem-concerned.trycloudflare.com/api/reciter/{reciter_id}
+GET https://thank-are-melissa-semi.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
 ### 3. Tracks in a Section
 ```
-GET https://surprising-address-salem-concerned.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://thank-are-melissa-semi.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
 ### 4. Single Track Info
 ```
-GET https://surprising-address-salem-concerned.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://thank-are-melissa-semi.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
 ---
