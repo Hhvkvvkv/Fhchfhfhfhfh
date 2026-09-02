@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://increased-package-some-yale.trycloudflare.com`
+**API URL:** `https://monitors-dating-patrick-beneath.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -9,22 +9,22 @@
 
 ### 1. List All Reciters
 ```
-GET https://increased-package-some-yale.trycloudflare.com/api/reciters
+GET https://monitors-dating-patrick-beneath.trycloudflare.com/api/reciters
 ```
 
 ### 2. Reciter Info
 ```
-GET https://increased-package-some-yale.trycloudflare.com/api/reciter/{reciter_id}
+GET https://monitors-dating-patrick-beneath.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
 ### 3. Tracks in a Section
 ```
-GET https://increased-package-some-yale.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://monitors-dating-patrick-beneath.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
 ### 4. Single Track Info
 ```
-GET https://increased-package-some-yale.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://monitors-dating-patrick-beneath.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
 ---
