@@ -1,6 +1,6 @@
 {
     "status": "active",
-    "base_url": "https://mortgages-comparative-car-tracy.trycloudflare.com",
+    "base_url": "https://towards-rational-elizabeth-commentary.trycloudflare.com",
     "ai_engine": "DataBase Supabase AI",
     "endpoints": {
         "chat": {
@@ -28,18 +28,18 @@
         }
     },
     "direct_browser_test_urls": {
-        "gemini_flash_lite": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
-        "gemini_flash": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
-        "gemini_image": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
-        "gemini_pro": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
-        "gpt5_nano": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
-        "gpt5_mini": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
-        "gpt5": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
-        "claude_haiku": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
-        "claude_sonnet_4_5": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
-        "claude_opus": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
-        "claude_sonnet_5": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
-        "claude_fable_5": "https://mortgages-comparative-car-tracy.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
+        "gemini_flash_lite": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=google/gemini-2.5-flash-lite&message=مرحبا",
+        "gemini_flash": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=google/gemini-2.5-flash&message=مرحبا",
+        "gemini_image": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=google/gemini-2.5-flash-image&message=create img cat and dog",
+        "gemini_pro": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=google/gemini-2.5-pro&message=مرحبا",
+        "gpt5_nano": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=openai/gpt-5-nano&message=مرحبا",
+        "gpt5_mini": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=openai/gpt-5-mini&message=مرحبا",
+        "gpt5": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=openai/gpt-5&message=مرحبا",
+        "claude_haiku": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=anthropic/claude-3-5-haiku-20241022&message=مرحبا",
+        "claude_sonnet_4_5": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=anthropic/claude-sonnet-4-5&message=مرحبا",
+        "claude_opus": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=anthropic/claude-opus-4-1-20250805&message=مرحبا",
+        "claude_sonnet_5": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=anthropic/claude-sonnet-5&message=مرحبا",
+        "claude_fable_5": "https://towards-rational-elizabeth-commentary.trycloudflare.com/chat?model=anthropic/claude-fable-5&message=مرحبا"
     },
-    "last_updated": "2026-09-01 16:02:43"
+    "last_updated": "2026-09-02 03:10:38"
 }
