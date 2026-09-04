@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://portraits-robinson-flux-anniversary.trycloudflare.com`
+**API URL:** `https://pub-eastern-wagon-reid.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -9,22 +9,22 @@
 
 ### 1. List All Reciters
 ```
-GET https://portraits-robinson-flux-anniversary.trycloudflare.com/api/reciters
+GET https://pub-eastern-wagon-reid.trycloudflare.com/api/reciters
 ```
 
 ### 2. Reciter Info
 ```
-GET https://portraits-robinson-flux-anniversary.trycloudflare.com/api/reciter/{reciter_id}
+GET https://pub-eastern-wagon-reid.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
 ### 3. Tracks in a Section
 ```
-GET https://portraits-robinson-flux-anniversary.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://pub-eastern-wagon-reid.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
 ### 4. Single Track Info
 ```
-GET https://portraits-robinson-flux-anniversary.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://pub-eastern-wagon-reid.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
 ---
