@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://pub-eastern-wagon-reid.trycloudflare.com`
+**API URL:** `https://stripes-messages-considerable-literature.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -9,22 +9,22 @@
 
 ### 1. List All Reciters
 ```
-GET https://pub-eastern-wagon-reid.trycloudflare.com/api/reciters
+GET https://stripes-messages-considerable-literature.trycloudflare.com/api/reciters
 ```
 
 ### 2. Reciter Info
 ```
-GET https://pub-eastern-wagon-reid.trycloudflare.com/api/reciter/{reciter_id}
+GET https://stripes-messages-considerable-literature.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
 ### 3. Tracks in a Section
 ```
-GET https://pub-eastern-wagon-reid.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://stripes-messages-considerable-literature.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
 ### 4. Single Track Info
 ```
-GET https://pub-eastern-wagon-reid.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://stripes-messages-considerable-literature.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
 ---
