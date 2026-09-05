@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://stripes-messages-considerable-literature.trycloudflare.com`
+**API URL:** `https://diffs-donald-proved-sustained.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -9,22 +9,22 @@
 
 ### 1. List All Reciters
 ```
-GET https://stripes-messages-considerable-literature.trycloudflare.com/api/reciters
+GET https://diffs-donald-proved-sustained.trycloudflare.com/api/reciters
 ```
 
 ### 2. Reciter Info
 ```
-GET https://stripes-messages-considerable-literature.trycloudflare.com/api/reciter/{reciter_id}
+GET https://diffs-donald-proved-sustained.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
 ### 3. Tracks in a Section
 ```
-GET https://stripes-messages-considerable-literature.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://diffs-donald-proved-sustained.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
 ### 4. Single Track Info
 ```
-GET https://stripes-messages-considerable-literature.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://diffs-donald-proved-sustained.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
 ---
