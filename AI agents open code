@@ -1,1 +1,50 @@
+# واجهة برمجة تطبيقات وكيل الذكاء الاصطناعي (OpenCode API)
 
+تم إنشاء هذا الملف تلقائياً بواسطة النظام.
+**الرابط الأساسي النشط (Base URL):** `https://registered-timothy-omissions-sip.trycloudflare.com`
+
+---
+
+## 1. الحصول على النماذج المتاحة
+- **المسار:** `/models`
+- **الطريقة:** `GET`
+- **مثال باستخدام Curl:**
+```bash
+curl -X GET https://registered-timothy-omissions-sip.trycloudflare.com/models
+```
+- **استجابة متوقعة:**
+```json
+{
+  "models": ["opencode/mimo-v2.5-free", "opencode/..."],
+  "status": "success"
+}
+```
+
+---
+
+## 2. إنشاء جلسة جديدة
+- **المسار:** `/session/create`
+- **الطريقة:** `POST`
+- **مثال باستخدام Curl:**
+```bash
+curl -X POST https://registered-timothy-omissions-sip.trycloudflare.com/session/create -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project"}'
+```
+
+---
+
+## 3. الدردشة مع النموذج
+- **المسار:** `/chat`
+- **الطريقة:** `POST`
+- **مثال باستخدام Curl:**
+```bash
+curl -X POST https://registered-timothy-omissions-sip.trycloudflare.com/chat -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project", "prompt": "اكتب لي كود بايثون بسيط", "model": "opencode/mimo-v2.5-free"}'
+```
+- **استجابة متوقعة:**
+```json
+{
+  "status": "success",
+  "model": "opencode/mimo-v2.5-free",
+  "session": "my_new_project",
+  "response": "الكود الذي طلبته..."
+}
+```
