@@ -1,7 +1,7 @@
 # واجهة برمجة تطبيقات وكيل الذكاء الاصطناعي (OpenCode API)
 
 تم إنشاء هذا الملف تلقائياً بواسطة النظام.
-**الرابط الأساسي النشط (Base URL):** `https://registered-timothy-omissions-sip.trycloudflare.com`
+**الرابط الأساسي النشط (Base URL):** `https://jennifer-whereas-referring-kijiji.trycloudflare.com`
 
 ---
 
@@ -10,7 +10,7 @@
 - **الطريقة:** `GET`
 - **مثال باستخدام Curl:**
 ```bash
-curl -X GET https://registered-timothy-omissions-sip.trycloudflare.com/models
+curl -X GET https://jennifer-whereas-referring-kijiji.trycloudflare.com/models
 ```
 - **استجابة متوقعة:**
 ```json
@@ -27,7 +27,7 @@ curl -X GET https://registered-timothy-omissions-sip.trycloudflare.com/models
 - **الطريقة:** `POST`
 - **مثال باستخدام Curl:**
 ```bash
-curl -X POST https://registered-timothy-omissions-sip.trycloudflare.com/session/create -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project"}'
+curl -X POST https://jennifer-whereas-referring-kijiji.trycloudflare.com/session/create -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project"}'
 ```
 
 ---
@@ -37,7 +37,7 @@ curl -X POST https://registered-timothy-omissions-sip.trycloudflare.com/session/
 - **الطريقة:** `POST`
 - **مثال باستخدام Curl:**
 ```bash
-curl -X POST https://registered-timothy-omissions-sip.trycloudflare.com/chat -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project", "prompt": "اكتب لي كود بايثون بسيط", "model": "opencode/mimo-v2.5-free"}'
+curl -X POST https://jennifer-whereas-referring-kijiji.trycloudflare.com/chat -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project", "prompt": "اكتب لي كود بايثون بسيط", "model": "opencode/mimo-v2.5-free"}'
 ```
 - **استجابة متوقعة:**
 ```json
