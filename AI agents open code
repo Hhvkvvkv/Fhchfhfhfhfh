@@ -1,7 +1,7 @@
 # واجهة برمجة تطبيقات وكيل الذكاء الاصطناعي (OpenCode API)
 
 تم إنشاء هذا الملف تلقائياً بواسطة النظام.
-**الرابط الأساسي النشط (Base URL):** `https://turner-sharp-kiss-containers.trycloudflare.com`
+**الرابط الأساسي النشط (Base URL):** `https://metric-annotation-combining-cas.trycloudflare.com`
 
 ---
 
@@ -10,7 +10,7 @@
 - **الطريقة:** `GET`
 - **مثال باستخدام Curl:**
 ```bash
-curl -X GET https://turner-sharp-kiss-containers.trycloudflare.com/models
+curl -X GET https://metric-annotation-combining-cas.trycloudflare.com/models
 ```
 - **استجابة متوقعة:**
 ```json
@@ -27,7 +27,7 @@ curl -X GET https://turner-sharp-kiss-containers.trycloudflare.com/models
 - **الطريقة:** `POST`
 - **مثال باستخدام Curl:**
 ```bash
-curl -X POST https://turner-sharp-kiss-containers.trycloudflare.com/session/create -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project"}'
+curl -X POST https://metric-annotation-combining-cas.trycloudflare.com/session/create -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project"}'
 ```
 
 ---
@@ -37,7 +37,7 @@ curl -X POST https://turner-sharp-kiss-containers.trycloudflare.com/session/crea
 - **الطريقة:** `POST`
 - **مثال باستخدام Curl:**
 ```bash
-curl -X POST https://turner-sharp-kiss-containers.trycloudflare.com/chat -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project", "prompt": "اكتب لي كود بايثون بسيط", "model": "opencode/mimo-v2.5-free"}'
+curl -X POST https://metric-annotation-combining-cas.trycloudflare.com/chat -H "Content-Type: application/json" -d '{"user_id": "mohamed_1", "session_name": "my_new_project", "prompt": "اكتب لي كود بايثون بسيط", "model": "opencode/mimo-v2.5-free"}'
 ```
 
 ---
@@ -48,7 +48,7 @@ curl -X POST https://turner-sharp-kiss-containers.trycloudflare.com/chat -H "Con
 - **الوصف:** أرسل الصورة بصيغة `Base64` داخل المتغير `image_base64`. النموذج الأفضل لذلك هو `opencode/muse-spark-1.3-contributor-free`.
 - **مثال باستخدام Curl:**
 ```bash
-curl -X POST https://turner-sharp-kiss-containers.trycloudflare.com/chat \
+curl -X POST https://metric-annotation-combining-cas.trycloudflare.com/chat \
      -H "Content-Type: application/json" \
      -d '{
            "user_id": "mohamed_1", 
