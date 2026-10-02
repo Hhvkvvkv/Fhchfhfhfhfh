@@ -2,17 +2,17 @@
 
 **بوابة دردشة وتصحيح نصوص — الرابط بيتحدّث لوحده مع كل إعادة تشغيل.**
 
-آخر تحديث: 2026-10-02 06:25 UTC
+آخر تحديث: 2026-10-02 13:42 UTC
 
 ## الرابط الحالي
 
 ```
-https://taylor-diego-sharp-low.trycloudflare.com
+https://opposing-cadmium-subsiding.ngrok-free.dev
 ```
 
 > ⚠️ روابط `trycloudflare.com` المجانية بتتغيّر مع كل إعادة تشغيل.
 > الملف ده بيتحدّث أوتوماتيك، فلو الرابط قديم جرّب تفتح الصفحة الرئيسية
-> `https://taylor-diego-sharp-low.trycloudflare.com/` وشوف لو المفتاح موجود.
+> `https://opposing-cadmium-subsiding.ngrok-free.dev/` وشوف لو المفتاح موجود.
 
 ## المسارات
 
@@ -33,19 +33,19 @@ https://taylor-diego-sharp-low.trycloudflare.com
 ## مثال 1: دردشة (GET)
 
 ```
-https://taylor-diego-sharp-low.trycloudflare.com/chat?key=WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc&message=%D8%A7%D9%83%D8%AA%D8%A8%20%D9%84%D9%8A%20%D9%85%D9%82%D8%A7%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9
+https://opposing-cadmium-subsiding.ngrok-free.dev/chat?key=WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc&message=%D8%A7%D9%83%D8%AA%D8%A8%20%D9%84%D9%8A%20%D9%85%D9%82%D8%A7%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9
 ```
 
 ## مثال 2: تصحيح نص (GET)
 
 ```
-https://taylor-diego-sharp-low.trycloudflare.com/correct?key=WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%88%D8%B1%D8%AD%D9%85%D9%87%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%A8%D8%B1%D9%83%D8%A7%D8%AA%D9%87%20%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%85%D8%AF%20%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%D9%86%D8%AD%D9%85%D8%AF%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D8%B9%D9%8A%D9%86%20%D8%A8%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D9%87%D8%AF%D9%8A%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D8%BA%D9%81%D8%B1%D9%87
+https://opposing-cadmium-subsiding.ngrok-free.dev/correct?key=WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%88%D8%B1%D8%AD%D9%85%D9%87%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%A8%D8%B1%D9%83%D8%A7%D8%AA%D9%87%20%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%85%D8%AF%20%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%D9%86%D8%AD%D9%85%D8%AF%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D8%B9%D9%8A%D9%86%20%D8%A8%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D9%87%D8%AF%D9%8A%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D8%BA%D9%81%D8%B1%D9%87
 ```
 
 ## مثال 3: طلبات بـ curl
 
 ```bash
-URL=https://taylor-diego-sharp-low.trycloudflare.com
+URL=https://opposing-cadmium-subsiding.ngrok-free.dev
 KEY="WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc"
 
 curl "$URL/health"
