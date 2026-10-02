@@ -1,1 +1,89 @@
+# Is this a basic chat or a spell checker?
 
+**بوابة دردشة وتصحيح نصوص — الرابط بيتحدّث لوحده مع كل إعادة تشغيل.**
+
+آخر تحديث: 2026-10-02 06:21 UTC
+
+## الرابط الحالي
+
+```
+https://taylor-diego-sharp-low.trycloudflare.com
+```
+
+> ⚠️ روابط `trycloudflare.com` المجانية بتتغيّر مع كل إعادة تشغيل.
+> الملف ده بيتحدّث أوتوماتيك، فلو الرابط قديم جرّب تفتح الصفحة الرئيسية
+> `https://taylor-diego-sharp-low.trycloudflare.com/` وشوف لو المفتاح موجود.
+
+## المسارات
+
+| المسار | الوظيفة |
+|---|---|
+| `GET /` | صفحة فيها نموذج تصحيح ودردشة |
+| `GET /chat` | دردشة — بترجّع نص عادي (أو JSON مع `format=json`) |
+| `GET /correct` | تصحيح نص — alias لـ `/fix` |
+| `GET /fix` | تصحيح نص |
+| `GET /get_pow` | PoW جاهز للهيدر |
+| `POST /session/create` | جلسة جديدة |
+| `POST /session/list` | قائمة الجلسات |
+| `POST /session/delete` | حذف جلسة |
+| `GET /health` | صحة الخدمة (مش محتاج مفتاح) |
+
+كل المسارات (عدا `/health`) محتاجة المفتاح: هيدر `X-API-Key` أو باراميتر `?key=`.
+
+## مثال 1: دردشة (GET)
+
+```
+https://taylor-diego-sharp-low.trycloudflare.com/chat?key=WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc&message=%D8%A7%D9%83%D8%AA%D8%A8%20%D9%84%D9%8A%20%D9%85%D9%82%D8%A7%D9%84%20%D8%B9%D9%86%20%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9
+```
+
+## مثال 2: تصحيح نص (GET)
+
+```
+https://taylor-diego-sharp-low.trycloudflare.com/correct?key=WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc&text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%20%D9%88%D8%B1%D8%AD%D9%85%D9%87%20%D8%A7%D9%84%D9%84%D9%87%20%D9%88%D8%A8%D8%B1%D9%83%D8%A7%D8%AA%D9%87%20%D8%A7%D9%86%20%D8%A7%D9%84%D8%AD%D9%85%D8%AF%20%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89%20%D9%86%D8%AD%D9%85%D8%AF%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D8%B9%D9%8A%D9%86%20%D8%A8%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D9%87%D8%AF%D9%8A%D9%87%20%D9%88%D9%86%D8%B3%D8%AA%D8%BA%D9%81%D8%B1%D9%87
+```
+
+## مثال 3: طلبات بـ curl
+
+```bash
+URL=https://taylor-diego-sharp-low.trycloudflare.com
+KEY="WbvhUs0_OZC7fWx29lFYvEGSz2reVwd_vACxD2JtGZc"
+
+curl "$URL/health"
+
+curl -G "$URL/chat" \
+  --data-urlencode "message=اكتب لي مقال عن القهوة" \
+  -H "X-API-Key: $KEY"
+
+curl -G "$URL/correct" \
+  --data-urlencode "text=انا بستخدم برنامج فوتوشوب وVs code في الشغل" \
+  -H "X-API-Key: $KEY"
+```
+
+## باراميترات `/chat`
+
+| الباراميتر | الافتراضي | الوصف |
+|---|---|---|
+| `message` | — | السؤال (مطلوب) |
+| `session_id` | جلسة جديدة |كمل في جلسة موجودة |
+| `parent_message_id` | — | رقم آخر رسالة |
+| `temperature` | 0.7 | الإبداع |
+| `max_tokens` | 2048 | طول الرد |
+| `top_p` | 0.9 | التنويع |
+| `thinking` | 0 | `1` = تفكير عميق |
+| `search` | 0 | `1` = بحث في الويب |
+| `format` | text | `json` يرجّع JSON |
+
+## باراميترات `/correct`
+
+| الباراميتر | الافتراضي | الوصف |
+|---|---|---|
+| `text` | — | النص المراد تصحيحه (مطلوب) |
+| `preset` | strict | `strict` أو `careful` |
+| `instruction` | — | برومبت مخصص بديل الـ preset |
+| `format` | text | `json` يرجّع `{original, corrected}` |
+
+## ملاحظات
+
+- الرد بييجي **نص عادي** (text/plain) — مش JSON.
+- المسار `/correct` و `/fix` نفس الحاجة.
+- الرابط في النسخة دي: **المفتاح منشور في الملف**
