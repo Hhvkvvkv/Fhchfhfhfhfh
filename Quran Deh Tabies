@@ -1,7 +1,7 @@
 # 🕌 Quran Reciters API
 ## Cloudflare Tunnel - سيرفر القراء المنشاوي
 
-**API URL:** `https://elliott-century-contrast-positioning.trycloudflare.com`
+**API URL:** `https://thrown-opponent-magazine-vehicle.trycloudflare.com`
 **Status:** 🟢 Active
 
 ---
@@ -9,22 +9,22 @@
 
 ### 1. List All Reciters
 ```
-GET https://elliott-century-contrast-positioning.trycloudflare.com/api/reciters
+GET https://thrown-opponent-magazine-vehicle.trycloudflare.com/api/reciters
 ```
 
 ### 2. Reciter Info
 ```
-GET https://elliott-century-contrast-positioning.trycloudflare.com/api/reciter/{reciter_id}
+GET https://thrown-opponent-magazine-vehicle.trycloudflare.com/api/reciter/{reciter_id}
 ```
 
 ### 3. Tracks in a Section
 ```
-GET https://elliott-century-contrast-positioning.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
+GET https://thrown-opponent-magazine-vehicle.trycloudflare.com/api/tracks/{reciter_id}/{section_id}
 ```
 
 ### 4. Single Track Info
 ```
-GET https://elliott-century-contrast-positioning.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
+GET https://thrown-opponent-magazine-vehicle.trycloudflare.com/api/track/{reciter_id}/{section_id}/{index}
 ```
 
 ---
