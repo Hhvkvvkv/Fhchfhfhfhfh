@@ -2,7 +2,7 @@
 
 **بوابة دردشة وتصحيح نصوص — الرابط بيتحدّث لوحده مع كل إعادة تشغيل.**
 
-آخر تحديث: 2026-10-03 21:21 UTC
+آخر تحديث: 2026-10-10 06:05 UTC
 
 ## الرابط الحالي
 
@@ -21,7 +21,6 @@ https://opposing-cadmium-subsiding.ngrok-free.dev
 | `GET /chat` | دردشة — بترجّع نص عادي (أو JSON مع `format=json`) |
 | `GET /correct` | تصحيح نص — alias لـ `/fix` |
 | `GET /fix` | تصحيح نص |
-| `GET /get_pow` | PoW جاهز للهيدر |
 | `POST /session/create` | جلسة جديدة |
 | `POST /session/list` | قائمة الجلسات |
 | `POST /session/delete` | حذف جلسة |
