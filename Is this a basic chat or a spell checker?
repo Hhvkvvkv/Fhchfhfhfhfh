@@ -2,7 +2,7 @@
 
 **بوابة دردشة وتصحيح نصوص — الرابط بيتحدّث لوحده مع كل إعادة تشغيل.**
 
-آخر تحديث: 2026-10-10 10:52 UTC
+آخر تحديث: 2026-10-10 15:15 UTC
 
 ## الرابط الحالي
 
@@ -21,6 +21,8 @@ https://opposing-cadmium-subsiding.ngrok-free.dev
 | `GET /chat` | دردشة — بترجّع نص عادي (أو JSON مع `format=json`) |
 | `GET /correct` | تصحيح نص — alias لـ `/fix` |
 | `GET /fix` | تصحيح نص |
+| `POST /stt` | تحويل الصوت لنص (ملف `file` أو `audio_base64`) |
+| `POST /describe` | وصف صورة (ملف `file` أو `image_base64` + `prompt` اختياري) |
 | `POST /session/create` | جلسة جديدة |
 | `POST /session/list` | قائمة الجلسات |
 | `POST /session/delete` | حذف جلسة |
@@ -56,7 +58,20 @@ curl -G "$URL/chat" \
 curl -G "$URL/correct" \
   --data-urlencode "text=انا بستخدم برنامج فوتوشوب وVs code في الشغل" \
   -H "X-API-Key: $KEY"
+
+curl -X POST "$URL/stt"   -H "X-API-Key: $KEY"   -F "file=@voice.mp3"
+
+curl -X POST "$URL/describe"   -H "X-API-Key: $KEY"   -F "file=@photo.jpg" --form prompt="اوصف الصورة"
 ```
+
+## باراميترات `/stt`
+
+| الباراميتر | الافتراضي | الوصف |
+|---|---|---|
+| `file` | — | ملف صوتي (multipart حتى 25MB) |
+| `audio_base64` | — | صوت base64 (JSON بديل `file`) |
+| `filename` | audio.wav | اسم الملف (لتحديد الصيغة) |
+| `format` | json | `text` يرجّع النص فقط |
 
 ## باراميترات `/chat`
 
